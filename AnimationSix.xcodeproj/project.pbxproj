@@ -11,6 +11,11 @@
 		EE52B90B2C0395D9003FB8D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE52B90A2C0395D9003FB8D9 /* ContentView.swift */; };
 		EE52B90D2C0395DA003FB8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE52B90C2C0395DA003FB8D9 /* Assets.xcassets */; };
 		EE52B9102C0395DA003FB8D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE52B90F2C0395DA003FB8D9 /* Preview Assets.xcassets */; };
+		EE52B9182C0395F1003FB8D9 /* doorsOpenClose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EE52B9162C0395F1003FB8D9 /* doorsOpenClose.m4a */; };
+		EE52B9192C0395F1003FB8D9 /* elevatorChime.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EE52B9172C0395F1003FB8D9 /* elevatorChime.m4a */; };
+		EE52B91B2C03961E003FB8D9 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE52B91A2C03961E003FB8D9 /* DataModel.swift */; };
+		EE52B91D2C039672003FB8D9 /* ElevatorAndPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE52B91C2C039672003FB8D9 /* ElevatorAndPeopleView.swift */; };
+		EE52B9202C0396DA003FB8D9 /* Playsound.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE52B91F2C0396DA003FB8D9 /* Playsound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		EE52B90A2C0395D9003FB8D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE52B90C2C0395DA003FB8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE52B90F2C0395DA003FB8D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE52B9162C0395F1003FB8D9 /* doorsOpenClose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = doorsOpenClose.m4a; sourceTree = "<group>"; };
+		EE52B9172C0395F1003FB8D9 /* elevatorChime.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = elevatorChime.m4a; sourceTree = "<group>"; };
+		EE52B91A2C03961E003FB8D9 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		EE52B91C2C039672003FB8D9 /* ElevatorAndPeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorAndPeopleView.swift; sourceTree = "<group>"; };
+		EE52B91E2C0396AA003FB8D9 /* Elevator.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Elevator.entitlements; sourceTree = "<group>"; };
+		EE52B91F2C0396DA003FB8D9 /* Playsound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playsound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +63,13 @@
 			isa = PBXGroup;
 			children = (
 				EE52B9082C0395D9003FB8D9 /* AnimationSixApp.swift */,
+				EE52B91F2C0396DA003FB8D9 /* Playsound.swift */,
 				EE52B90A2C0395D9003FB8D9 /* ContentView.swift */,
+				EE52B91A2C03961E003FB8D9 /* DataModel.swift */,
+				EE52B91C2C039672003FB8D9 /* ElevatorAndPeopleView.swift */,
+				EE52B9162C0395F1003FB8D9 /* doorsOpenClose.m4a */,
+				EE52B9172C0395F1003FB8D9 /* elevatorChime.m4a */,
+				EE52B91E2C0396AA003FB8D9 /* Elevator.entitlements */,
 				EE52B90C2C0395DA003FB8D9 /* Assets.xcassets */,
 				EE52B90E2C0395DA003FB8D9 /* Preview Content */,
 			);
@@ -126,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE52B9102C0395DA003FB8D9 /* Preview Assets.xcassets in Resources */,
+				EE52B9192C0395F1003FB8D9 /* elevatorChime.m4a in Resources */,
+				EE52B9182C0395F1003FB8D9 /* doorsOpenClose.m4a in Resources */,
 				EE52B90D2C0395DA003FB8D9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE52B9202C0396DA003FB8D9 /* Playsound.swift in Sources */,
 				EE52B90B2C0395D9003FB8D9 /* ContentView.swift in Sources */,
 				EE52B9092C0395D9003FB8D9 /* AnimationSixApp.swift in Sources */,
+				EE52B91B2C03961E003FB8D9 /* DataModel.swift in Sources */,
+				EE52B91D2C039672003FB8D9 /* ElevatorAndPeopleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
